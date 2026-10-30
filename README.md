@@ -17,8 +17,8 @@ telecom networks, where I combine core-network domain knowledge with modern LLM 
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [**telecom-noc-agent**](https://github.com/nikhil2sharma/telecom-noc-agent) | NOC assistant agent for a 4G EPC core that helps diagnose and triage network issues | Claude Agent SDK, MCP, Python |
-| [**software-installation-agent**](https://github.com/nikhil2sharma/software-installation-agent) | Reads a CSV of tools and versions, looks up the latest stable releases via web search, and reports what's out of date | Claude API, tool-calling, Python, uv, CI |
+| [**telecom-noc-agent**](https://github.com/nikhil2sharma/telecom-noc-agent) | NOC assistant for a 4G EPC core: Claude answers health-check and root-cause questions from KPI data exposed as MCP tools | Claude Agent SDK, MCP, Python, CI |
+| [**version-agent**](https://github.com/nikhil2sharma/version-agent) | Reads a CSV of tools and versions, looks up the latest stable releases via web search, and reports what's out of date | Claude API, web search tool, Python, CI |
 | [**churn-prediction-api**](https://github.com/nikhil2sharma/churn-prediction-api) | End-to-end churn prediction service: scikit-learn training pipeline with a quality gate, served via FastAPI | scikit-learn, FastAPI, Docker, CI |
 
 ---
